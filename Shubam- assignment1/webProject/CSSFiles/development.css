@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 2PX;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sans-se 'Arial', sans-serif';
+    background-color: #f4f4f4;
+    line-height: 2rem;
+}
+.container{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background-color: bisque;
+    position: fixed;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+}
+.nav{
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+.nav ul li{
+    display: inline;
+    padding: 0 1rem;
+}
+.nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.nav ul li a:active{
+    color: #f22;
+    text-decoration: none;
+    background-color: #333;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.nav ul li a:visited{
+    color: goldenrod;
+    text-decoration: none;
+    background-color: #333;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.design{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 50%;
+    padding: 1rem;
+}
+.right{
+    width: 50%;
+    padding: 1rem;
+}
+img{
+    width: 600px;
+    height: auto;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.footer1{
+    margin-bottom: auto;
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    bottom: 0;
+}
+.left p{
+    padding: 10px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 2PX;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sans-se 'Arial', sans-serif';
+    background-color: #f4f4f4;
+    line-height: 2rem;
+}
+.container{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    background-color: bisque;
+    position: fixed;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+}
+.nav{
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+.nav ul li{
+    display: inline;
+    padding: 0 1rem;
+}
+.nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.nav ul li a:active{
+    color: #f22;
+    text-decoration: none;
+    background-color: #333;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.nav ul li a:visited{
+    color: goldenrod;
+    text-decoration: none;
+    background-color: #333;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+.content{
+    background-image: url("photos/R.png");
+    color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.content h1{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.content p{
+    font-size: 1.5rem;
+}
+.footer1{
+    margin-bottom: auto;
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    bottom: 0;
+}
+img{
+    width: 600px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.photo1{
+    margin-top: 90px;
+    width: 30%;
+    
+}
+.left{
+    margin-top: 90px;
+    width: 50%;
+    display: block;
+}
